@@ -28,9 +28,9 @@ void cDanhSachSV::xuatDSSVCD() {
 	string mssv[100];
 	string hoTen[100];
 	string diaChi[100];
-	int tongsotinchi[100];
-	float dtb[100];
-	float dtn[100];
+	int tongsotinchi[100]{};
+	float dtb[100]{};
+	float dtn[100]{};
 	int slsvCD = dssvCD.size();
 	for (int i = 0; i < slsvCD; i++) {
 		mssv[i] = dssvCD[i].getMSSV();
@@ -55,10 +55,10 @@ void cDanhSachSV::xuatDSSVDH() {
 	string mssv[100];
 	string hoTen[100];
 	string diaChi[100];
-	int tongsotinchi[100];
-	float dtb[100];
+	int tongsotinchi[100]{};
+	float dtb[100]{};
 	string tenLV[100];
-	float dlv[100];
+	float dlv[100]{};
 	int slsvDH = dssvDH.size();
 	for (int i = 0; i < slsvDH; i++) {
 		mssv[i] = dssvDH[i].getMSSV();
