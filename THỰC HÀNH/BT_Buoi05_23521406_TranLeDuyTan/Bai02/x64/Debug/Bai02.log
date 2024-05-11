@@ -1,0 +1,6 @@
+﻿  Bai02.cpp
+  cDanhSachSV.cpp
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi05_23521406_TranLeDuyTan\Bai02\cDanhSachSV.cpp(34,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi05_23521406_TranLeDuyTan\Bai02\cDanhSachSV.cpp(62,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Bai02.vcxproj -> E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi05_23521406_TranLeDuyTan\x64\Debug\Bai02.exe

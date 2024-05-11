@@ -1,0 +1,17 @@
+﻿  Bai05.cpp
+  cDaThuc.cpp
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai05\cDaThuc.cpp(7,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai05\cDaThuc.cpp(44,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai05\cDaThuc.cpp(51,37): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai05\cDaThuc.cpp(57,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai05\cDaThuc.cpp(64,37): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  Generating Code...
+  Bai05.vcxproj -> E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\x64\Debug\Bai05.exe

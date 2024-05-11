@@ -1,0 +1,23 @@
+﻿  Bai01.cpp
+  cSoPhuc.cpp
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(56,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(56,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(166,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(170,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(173,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(177,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(185,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(188,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(199,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(218,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(222,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(225,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(229,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(237,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(240,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(251,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(286,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(72): warning C4715: 'operator==': not all control paths return a value
+E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\Bai01\cSoPhuc.cpp(82): warning C4715: 'operator==': not all control paths return a value
+  Bai01.vcxproj -> E:\UIT\HK2\5.OOP\THỰC HÀNH\BT_Buoi04_23521406_TranLeDuyTan\x64\Debug\Bai01.exe
