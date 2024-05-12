@@ -2,6 +2,7 @@
 void cSinhVienDH::nhap() {
 	cSinhVien::nhap();
 	cout << "nhap ten luan van: ";
+	cin.ignore();
 	getline(cin, tenLuanVan);
 
 	cout << "nhap diem luan van: ";

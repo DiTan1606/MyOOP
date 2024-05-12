@@ -2,10 +2,10 @@
 
 void cSinhVien::nhap() {
 	cout << "nhap MSSV: ";
-	cin.ignore();
-	getline(cin, mssv);
+	cin >> mssv;
 
 	cout << "nhap Ho va Ten: ";
+	cin.ignore();
 	getline(cin, hoTen);
 
 	cout << "nhap dia chi: ";
@@ -13,11 +13,9 @@ void cSinhVien::nhap() {
 
 	cout << "nhap tong so tin chi: ";
 	cin >> tongTC;
-	cin.ignore();
 
 	cout << "nhap DTB: ";
 	cin >> DTB;
-	cin.ignore();
 }
 
 bool cSinhVien::xetTN() {
