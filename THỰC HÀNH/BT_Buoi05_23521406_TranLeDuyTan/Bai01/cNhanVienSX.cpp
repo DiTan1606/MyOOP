@@ -8,3 +8,9 @@ void cNhanVienSX::nhap() {
 double cNhanVienSX::tinhLuong() {
 	return luongCanBan + soSanPham * 5000;
 }
+double cNhanVienSX::getLuongCanBan() {
+	return luongCanBan;
+}
+int cNhanVienSX::getSoSanPham() {
+	return soSanPham;
+}

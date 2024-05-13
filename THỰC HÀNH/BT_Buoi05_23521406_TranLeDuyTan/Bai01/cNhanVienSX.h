@@ -10,5 +10,7 @@ public:
     cNhanVienSX();
     void nhap();
     double tinhLuong();
+    double getLuongCanBan();
+    int getSoSanPham();
 };
 

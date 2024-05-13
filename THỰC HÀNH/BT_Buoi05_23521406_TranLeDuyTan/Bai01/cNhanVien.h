@@ -13,5 +13,7 @@ public:
 	cNhanVien();
 	void nhap();
 	double tinhLuong();
+	string getHoTen();
+	string getNgaySinh();
 };
 

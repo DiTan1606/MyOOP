@@ -9,5 +9,6 @@ public:
 	cNhanVienVP();
 	void nhap();
 	double tinhLuong();
+	double getSoNgayLamViec();
 };
 

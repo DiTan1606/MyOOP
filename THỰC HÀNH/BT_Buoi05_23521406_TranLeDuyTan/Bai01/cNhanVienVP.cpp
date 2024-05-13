@@ -7,3 +7,6 @@ void cNhanVienVP::nhap() {
 double cNhanVienVP::tinhLuong() {
 	return soNgayLamViec * 100000;
 }
+double cNhanVienVP::getSoNgayLamViec() {
+	return soNgayLamViec;
+}

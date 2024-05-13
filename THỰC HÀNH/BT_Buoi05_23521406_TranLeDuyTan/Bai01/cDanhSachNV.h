@@ -30,7 +30,12 @@ public:
 	void appendDSNVSX();
 	void appendDSNVVP();
 
+	void deleteDSNVSX(string hoten);
+	void deleteDSNVVP(string hoten);
+
 	void xuatDSNVSX();
 	void xuatDSNVVP();
+
+	double tongLuong();
 };
 
