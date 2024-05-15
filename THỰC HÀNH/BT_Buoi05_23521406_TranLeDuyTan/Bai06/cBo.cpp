@@ -1,15 +1,45 @@
 #include "cBo.h"
 
-int cBo::sinhCon() {
-	return 1;
+cBo::cBo(int sl) : cGiaSuc("Bo", sl, 30, 60, 40) {}
+
+void cBo::Keu() {	
+	tiengKeu = " ";
+	while (1) {
+		if (time(0) - lanAnCuoi >= timeDoi) {
+			lanAnCuoi = time(0);
+			tiengKeu = "Moo Mooo!";
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeDoi));
+		tiengKeu = " ";
+	}
 }
-int cBo::choSua() {
-	random_device rd;
-	mt19937 gen(rd()); 
-	uniform_int_distribution<> dis(0, 20); 
-	int luongSua = dis(gen);
-	return luongSua;
+
+void cBo::choSua() {
+	srand(time(0));
+	luongSua = 0;
+
+	while (1) {
+		if (time(0) - lanChoSuaCuoi >= timeChoSua) {
+			lanChoSuaCuoi = time(0);
+			for (int i = 1; i <= sl; i++) {
+				luongSua += rand() % 21;
+			}
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeChoSua));
+	}
+	
 }
-string cBo::phatRaTiengKeu() {
-	return "moo moo moo";
+void cBo::sinhCon() {
+	srand(time(0));
+
+	while (1) {
+		if (time(0) - lanDeCuoi >= timeDe) {
+			lanDeCuoi = time(0);
+			int temp = sl;
+			for (int i = 1; i <= temp; i++) {
+				sl += rand() % 2 + 1;
+			}
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeDe));
+	}
 }

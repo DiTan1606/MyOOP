@@ -1,18 +1,44 @@
 #include "cCuu.h"
-int cCuu::sinhCon() {
-	random_device rd;
-	mt19937 gen(rd());
-	uniform_int_distribution<> dis(1, 3);
-	int soCon = dis(gen);
-	return soCon;
+
+cCuu::cCuu(int sl) : cGiaSuc("Cuu", sl, 25, 35, 20) {}
+
+void cCuu::Keu() {
+	tiengKeu = " ";
+	while (1) {
+		if (time(0) - lanAnCuoi >= timeDoi) {
+			lanAnCuoi = time(0);
+			tiengKeu = "Mee meee!";
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeDoi));
+		tiengKeu = " ";
+	}
 }
-int cCuu::choSua() {
-	random_device rd;
-	mt19937 gen(rd());
-	uniform_int_distribution<> dis(0, 5);
-	int luongSua = dis(gen);
-	return luongSua;
+
+void cCuu::choSua() {
+	srand(time(0));
+	luongSua = 0;
+
+	while (1) {
+		if (time(0) - lanChoSuaCuoi >= timeChoSua) {
+			lanChoSuaCuoi = time(0);
+			for (int i = 1; i <= sl; i++) {
+				luongSua += rand() % 6;
+			}
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeChoSua));
+	}
 }
-string cCuu::phatRaTiengKeu() {
-	return "bee bee bee";
+void cCuu::sinhCon() {
+	srand(time(0));
+
+	while (1) {
+		if (time(0) - lanDeCuoi >= timeDe) {
+			lanDeCuoi = time(0);
+			int temp = sl;
+			for (int i = 1; i <= temp; i++) {
+				sl += rand() % 2 + 1;
+			}
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeDe));
+	}
 }

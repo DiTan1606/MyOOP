@@ -1,18 +1,43 @@
 #include "cDe.h"
-int cDe::sinhCon() {
-	random_device rd;
-	mt19937 gen(rd());
-	uniform_int_distribution<> dis(2, 3);
-	int soCon = dis(gen);
-	return soCon;
+cDe::cDe(int sl) : cGiaSuc("De", sl, 20, 40, 15) {}
+
+void cDe::Keu() {
+	tiengKeu = " ";
+	while (1) {
+		if (time(0) - lanAnCuoi >= timeDoi) {
+			lanAnCuoi = time(0);
+			tiengKeu = "Bee beee!";
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeDoi));
+		tiengKeu = " ";
+	}
 }
-int cDe::choSua() {
-	random_device rd;
-	mt19937 gen(rd());
-	uniform_int_distribution<> dis(0, 10);
-	int luongSua = dis(gen);
-	return luongSua;
+
+void cDe::choSua() {
+	srand(time(0));
+	luongSua = 0;
+
+	while (1) {
+		if (time(0) - lanChoSuaCuoi >= timeChoSua) {
+			lanChoSuaCuoi = time(0);
+			for (int i = 1; i <= sl; i++) {
+				luongSua += rand() % 11;
+			}
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeChoSua));
+	}
 }
-string cDe::phatRaTiengKeu() {
-	return "mee mee mee";
+void cDe::sinhCon() {
+	srand(time(0));
+
+	while (1) {
+		if (time(0) - lanDeCuoi >= timeDe) {
+			lanDeCuoi = time(0);
+			int temp = sl;
+			for (int i = 1; i <= temp; i++) {
+				sl += rand() % 2 +1;
+			}
+		}
+		std::this_thread::sleep_for(std::chrono::seconds(timeDe));
+	}
 }

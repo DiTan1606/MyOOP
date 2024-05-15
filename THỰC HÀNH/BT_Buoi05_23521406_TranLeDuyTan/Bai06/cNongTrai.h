@@ -1,4 +1,7 @@
 #pragma once
+#include <vector>
+#include <mutex>
+#include <condition_variable>
 #include "cGiaSuc.h"
 #include "cBo.h"
 #include "cCuu.h"
@@ -7,14 +10,18 @@
 class cNongTrai
 {
 private:
-	cBo bo;
-	cCuu cuu;
-	cDe de;
+	vector <cGiaSuc*> nongTrai;
 public:
-	void nhapSL();
+	void nhap();
 	void xuat();
-	void tiengKeu();
-	int socon();
-	int luongSua();
+
+	int tongSL();
+	double tongLuongSua();
+
+	void choAn();
+
+	cGiaSuc* getGiaSuc(int);
+
+	void phatratiengkeu();
 };
 

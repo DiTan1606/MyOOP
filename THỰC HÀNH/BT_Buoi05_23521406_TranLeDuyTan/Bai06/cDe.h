@@ -4,9 +4,9 @@ class cDe :
     public cGiaSuc
 {
 public:
-	void nhapSL();
-	int sinhCon();
-	int choSua();
-	string phatRaTiengKeu();
+	cDe(int sl);
+	virtual void Keu() override;
+	virtual void choSua() override;
+	virtual void sinhCon() override;
 };
 
