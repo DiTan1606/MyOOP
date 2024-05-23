@@ -17,11 +17,6 @@ public:
 
 	int tongSL();
 	double tongLuongSua();
-
-	void choAn();
-
 	cGiaSuc* getGiaSuc(int);
-
-	void phatratiengkeu();
 };
 
