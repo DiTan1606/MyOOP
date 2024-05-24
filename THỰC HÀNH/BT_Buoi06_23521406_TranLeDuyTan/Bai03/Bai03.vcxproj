@@ -128,6 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bai03.cpp" />
+    <ClCompile Include="cBo.cpp" />
+    <ClCompile Include="cCuu.cpp" />
+    <ClCompile Include="cDe.cpp" />
+    <ClCompile Include="cGiaSuc.cpp" />
+    <ClCompile Include="cNongTrai.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cBo.h" />
+    <ClInclude Include="cCuu.h" />
+    <ClInclude Include="cDe.h" />
+    <ClInclude Include="cGiaSuc.h" />
+    <ClInclude Include="cNongTrai.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

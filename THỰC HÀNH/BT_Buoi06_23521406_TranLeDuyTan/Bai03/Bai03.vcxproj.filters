@@ -18,5 +18,37 @@
     <ClCompile Include="Bai03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cGiaSuc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cBo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCuu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cDe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cNongTrai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cGiaSuc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cBo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCuu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cDe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cNongTrai.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
